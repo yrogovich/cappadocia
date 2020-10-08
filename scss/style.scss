@@ -1,0 +1,23 @@
+//import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@900&display=swap');
+
+// 12 column grid
+@import 'partials/smart-grid';
+
+// Normalize
+@include reset();
+
+// Mixins
+@import 'partials/mixins';
+
+// Vars
+@import 'partials/vars';
+
+// Base
+@import 'partials/base';
+
+// Style
+@import 'partials/style';
+
+// Helpers
+@import 'partials/helpers';

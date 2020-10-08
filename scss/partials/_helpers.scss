@@ -1,0 +1,29 @@
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: 700;
+}
+.block {
+    display: block;
+}
+.lg-block {
+    display: block;
+    @include sm-block() {
+        display: inline;
+    }
+}
+.text-center,
+.centered {
+    text-align: center;
+}
+
+.primary {
+    color: $primary;
+}
+.yellow {
+    color: #FFE600;
+}
+.black{
+    color: #292B31;
+}
